@@ -1,12 +1,186 @@
-body {
-  min-height: 2000px;
+/* Kumpulan API yang digunakan */
+/* https://covid19.mathdro.id/api */
+/* http://www.omdbapi.com/ */
+
+#home {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+}
+.navbar-collapse {
+  font-size: 16px;
 }
 
 .jumbotron {
-  padding-top: 5rem;
-  background-color: blanchedalmond;
+  background-image: url(image/home-bg.jpg);
+  height: 750px;
+  margin-top: 74px;
+  text-align: center;
+}
+.jumbotron .display-4 {
+  color: black;
+  padding-top: 12rem;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(244, 248, 244, 0.178);
+}
+.jumbotron .display-4 span {
+  font-weight: 500;
 }
 
-#contact {
-  padding-top: 2rem;
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  margin-top: 2rem;
+}
+/* Info Panel */
+.info-panel {
+  background-color: #dc3545;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  padding: 20px;
+}
+
+.img-panelbaru {
+  width: 480px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.panel-baru h2 {
+  font-size: 48px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.panel-baru h2 span {
+  font-weight: 500;
+}
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #fff;
+  width: 50%;
+  margin: auto;
+  margin-bottom: -3px;
+}
+
+.contact {
+  background-image: url(image/contact.jpg);
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  .jumbotron {
+    margin-top: 74px;
+    height: 640px;
+  }
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+  .poster h2 {
+    font-size: 20px;
+  }
+  .info-panel .img-info {
+    height: 144px;
+  }
+}
+
+#about {
+  background-color: antiquewhite;
+  text-align: center;
+  width: 1900px;
+  height: 300px;
+}
+
+#about h5 {
+  font-size: 38px;
+  font-weight: 500;
+}
+#about .card {
+  width: 160px;
+  border-radius: 100px;
+}
+#about .nama {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#backTop {
+  position: absolute;
+  left: 1800px;
+  color: white;
+  font-size: 40px;
+}
+
+.footer {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem;
+}
+
+#form-pesan {
+  padding-top: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 720px;
+  height: 720px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+#form-pesan .form-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.poster .img-poster {
+  width: 1024px;
+  margin-top: 150px;
+}
+.poster h2 {
+  font-size: 48px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+}
+.poster h2 span {
+  font-weight: 500;
+}
+
+.poster p {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.poster italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.poster .img-poster {
+  margin-bottom: 100px;
+}
+.poster .poster-head {
+  background-color: black;
+}
+.poster .tombol-film {
+  text-align: center;
+}
+
+#search-film {
+  margin-top: 200px;
 }

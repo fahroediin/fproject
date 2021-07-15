@@ -9,29 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <!-- CSS -->
+    <!-- My Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+    <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Home | Nama Web</title>
+    <title>Home | Janjoox</title>
   </head>
   <body id="home">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow p-2 fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Nama web</a>
+        <a class="navbar-brand" href="#home"><i class="bi bi-vinyl-fill"></i>Janjoox</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse">
-          <form class="row g-2 form-inline ms-auto">
-            <div class="col-auto">
-              <input class="form-control" type="search" placeholder="Input keyword . ." aria-label="Search" />
-            </div>
-            <div class="col">
-              <button class="btn btn-success navbar-dark text-white" type="submit">Search</button>
-            </div>
-          </form>
-        </div>
+        
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -41,10 +34,10 @@
               <a class="nav-link" href="kesehatan.html">Kesehatan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pendidikan.html">Pendidikan</a>
+              <a class="nav-link" href="film.html">Films</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="olahraga.html">Olahraga</a>
+              <a class="nav-link" href="game.html">Games</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -53,21 +46,104 @@
         </div>
       </div>
     </nav>
-
     <!-- Akhir navbar -->
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="image/fahrudin.jpg" width="300" alt="Imam Fahrudin" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Imam Fahrudin</h1>
-      <p class="lead">Audio Addict | Content Creator</p>
-    </section>
 
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Selamat datang di website <i class="bi bi-vinyl-fill"></i><span>JANJOOX</span></h1>
+        <h3 class="text-center">Website ini dibuat untuk memenuhi UAS mata kuliah PBO.</h3>
+        <a href="#about" class="btn btn-primary tombol">Tentang Kami</a>
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Container -->
+    <div class="container">
+      <!-- Info Panel -->
+      <div class="row justify-content-center">
+        <div class="col info-panel">
+          <div class="row">
+            <div class="col-lg">
+              <img src="image/panel1.jpg" alt="" class="float-less img-info" />
+              <h4>Covid</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-lg">
+              <img src="image/panel1.jpg" alt="" class="float-less" />
+              <h4>Covid</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-lg">
+              <img src="image/panel1.jpg" alt="" class="float-less" />
+              <h4>Covid</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Panel -->
+      <!-- Panel Baru -->
+      <div class="row panel-baru">
+        <div class="col-lg">
+          <h2>GUGUS TUGAS PERCEPATAN PENANGANAN <span>COVID-19</span></h2>
+          <p>
+            Dalam menangani Covid-19 diperlukan langkah-langkah cepat, tepat, fokus, terpadu dan sinergis antar kementerian/lembaga dan pemerintah daerah. Untuk itu dibentuk Gugus Tugas Percepatan Penanganan Covid-19 yang ditetapkan dengan
+            <strong>Keputusan Presiden No. 7/2020.</strong>
+          </p>
+          <a href="kesehatan.html" class="btn btn-primary tombol">Info Kesehatan</a>
+        </div>
+        <div class="col-lg">
+          <img src="image/masker.jpg" alt="Covid-19" class="img-fluid img-panelbaru" />
+        </div>
+        <!-- Akhir Panel Baru -->
+      </div>
+    </div>
+
+    <!-- Akhir Container -->
+    <!-- Tentang Kami -->
+    <section id="about">
+      <div class="container mt-5">
+        <div class="row mb-5">
+  
+            <h5>Tentang Kami</h5>
+   
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-2 d-flex justify-content-center">
+            <img src="#youtubePic1" class="card-img-top shadow-2 card" alt="Rafiq Chasnan Habibi" />
+            <div class="card-body text-center nama">
+              Rafiq Chasnan Habibi
+            </div>
+          </div>
+          <div class="col-md-4 mb-2 d-flex justify-content-center">
+            <img src="image/fahrudin.jpg" class="card-img-top shadow-2 card" alt="Imam Fahrudin" />
+            <div class="card-body text-center nama">
+               Imam Fahrudin
+            </div>
+          </div>
+          <div class="col-md-4 mb-2 d-flex justify-content-center">
+            <img src="image/putri.jpg" class="card-img-top shadow-2 card" alt="Putri Damayani" />
+            <div class="card-body text-center nama">
+              Putri Damayani
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <a href="#home" id="backTop"><i class="bi bi-arrow-up-circle-fill"></i></a>
+    <!-- Akhir Tentang Kami -->
     <!-- Footer -->
-    <footer class="bg-danger text-white text-center">
-      <p>Created by <i class="bi bi-instagram"></i> <a href="https://www.instagram.com/fahroediin/" class="text-white fw-bold">Imam Fahrudin</a></p>
+    <footer class="bg-danger text-white padding-3 text-center footer">
+      <p>Dibuat dengan canda tawa oleh  <i class="bi bi-instagram"></i><a href="https://www.instagram.com/fahroediin/" class="text-white"> Imam Fahrudin</a></p>
     </footer>
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
